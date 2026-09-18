@@ -3,7 +3,7 @@
 Level 3 Games Development student at Belfast Metropolitan College.
 Unreal Engine, C++, game audio.
 
-**Portfolio:** https://john-dot1.github.io
+**Portfolio:** [https://john-dot1.github.io](https://john-dot1.github.io/)
 
 ## What is in here
 

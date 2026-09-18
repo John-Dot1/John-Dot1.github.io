@@ -1,4 +1,4 @@
-# John
+# John McDonald
 
 Level 3 Games Development student at Belfast Metropolitan College.
 Unreal Engine, C++, game audio.

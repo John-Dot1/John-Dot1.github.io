@@ -46,7 +46,10 @@
 
   function tick() {
     direction = nextDirection;
-    const head = { x: snake[0].x + direction.x, y: snake[0].y + direction.y };
+    const head = {
+  x: (snake[0].x + direction.x + cells) % cells,
+  y: (snake[0].y + direction.y + cells) % cells
+};
     const eating = head.x === food.x && head.y === food.y;
     const body = eating ? snake : snake.slice(0, -1);
     if (head.x < 0 || head.y < 0 || head.x >= cells || head.y >= cells || body.some(part => part.x === head.x && part.y === head.y)) {

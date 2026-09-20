@@ -100,7 +100,6 @@ section[id] { scroll-margin-top: 24px; }
 .site-footer p { margin-bottom: 8px; }
 ::selection { color: white; background: #6042d5; }
 
-// Snake
 .snake-trigger { position: fixed; left: 24px; bottom: 24px; z-index: 20; padding: 10px 15px; border: 1px solid #a393ff; border-radius: 999px; background: #1a1530; color: #fff; font: 600 .9rem 'Inter', sans-serif; box-shadow: 0 8px 28px #0008; cursor: pointer; }
 .snake-trigger:hover { background: #6042d5; }
 .snake-trigger span { margin-left: 5px; color: var(--accent); }
